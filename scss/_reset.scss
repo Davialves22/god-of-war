@@ -7,21 +7,25 @@
   color: white;
 }
 
+a {
+  text-decoration: none;
+}
+
 button {
   border: 0;
   background-color: transparent;
   cursor: pointer;
 }
 
-img{
+img {
   max-width: 100%;
   display: block;
 }
 
-html{
+html {
   font-size: 62.5%;
 }
 
-body{
+body {
   background-color: #000201;
 }
