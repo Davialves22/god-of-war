@@ -6,6 +6,10 @@
     <link
       href="https://fonts.googleapis.com/css2?family=Archivo:ital,wght@0,100..900;1,100..900&display=swap"
       rel="stylesheet">
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=chrome">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -62,7 +66,7 @@
 
         <!--Lado Esquerdo-->
         <div class="right">
-          <span>Assista ao Trailer</span>
+          <span>Assista ao Trailer no Youtube</span>
           <button>
             <img src="img/assets/thumbnail.gif" alt class="thumbnail">
             <a
@@ -143,50 +147,151 @@
                 2018 de God of War.</p>
             </div>
           </div>
-
           <img src="img/assets/kratos-atreus.png" class="kratos-atreus" alt>
         </div>
       </section>
 
       <!--Sessão dos Personsagens-->
-
-      <section class="s-character">
+      <section class="s-characteres">
         <div class="container">
-          <div class="descript">
-            <div class="slide">
+          <div class="description">
+            <div class="left">
+              <h3 class="subtitle">
+                <img src="img/assets/bullets.svg" alt>
+                <span> Conheça os Personagens </span>
+              </h3>
+              <h2>Toda grande aventura é uma história esperando para ser
+                contada!</h2>
+
+              <p>Reviva o começo da jornada nórdica épica de Kratos e Atreus em
+                Mitos de Midgard. Um alerta para quem não está familiarizado com
+                God of War: spoilers à frente.</p>
 
             </div>
-          </div>
-        </section>
 
-        <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
-        <section>
-          <div class="container">
-
-            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Id cum
-              voluptatem ab! Aliquam aperiam delectus dolorum quaerat maxime ut
-              ducimus deleniti illum. Excepturi dicta illo omnis necessitatibus
-              iste, alias voluptatem!</p>
-
-            <div class="card-character">
-              <div class="image">
-                <img src="img/assets/kratos.png" alt>
-
-                <button>Saiba mais</button>
-
-              </div>
-              <div class="info">
-                <h3>Kratos</h3>
-                <span>Deus da Guerra</span>
+            <div class="right">
+              <img src="img/assets/axel.png" alt>
+              <div class="text">
+                <img src="img/assets/logo.jpg" alt>
+                <span>Disponivel Agora no Site da Playstation.</span>
               </div>
             </div>
-
-            <h3 class="subtitle">
-              <img src="img/assets/bullets.svg" alt="Bullets">
-              <span>Sony Interactive Entertainment</span>
-            </h3>
           </div>
-        </section>
-      </body>
 
-    </html>
+          <!-- Swiper -->
+          <div class="slide-characters">
+            <div class="swiper-wrapper">
+
+              <!--Kratos-->
+              <div class="swiper-slide">
+
+                <div class="card-character">
+
+                  <!--Kratos-->
+                  <div class="image">
+                    <img src="img/assets/kratos.png" alt>
+                    <button>Saiba mais</button>
+                  </div>
+                  <div class="info">
+                    <h3>Kratos</h3>
+                    <span>Deus da Guerra</span>
+                  </div>
+
+                </div>
+
+              </div>
+
+              <!--Atreus-->
+              <div class="swiper-slide">
+                <div class="card-character">
+                  <div class="image">
+                    <img src="img/assets/atreus.jpg" alt>
+                    <button>Saiba mais</button>
+                  </div>
+                  <div class="info">
+                    <h3>Atreus(Loki)</h3>
+                    <span>Filho de Kratos</span>
+                  </div>
+                </div>
+              </div>
+
+              <!--Mimir-->
+              <div class="swiper-slide">
+                <div class="card-character">
+                  <div class="image">
+                    <img src="img/assets/mimir.jpg" alt>
+                    <button>Saiba mais</button>
+                  </div>
+                  <div class="info">
+                    <h3>Mimir</h3>
+                    <span>Alidado de Kratos</span>
+                  </div>
+                </div>
+              </div>
+
+              <!--Freya-->
+              <div class="swiper-slide">
+                <div class="card-character">
+                  <div class="image">
+                    <img src="img/assets/freya.jpg" alt>
+                    <button>Saiba mais</button>
+                  </div>
+                  <div class="info">
+                    <h3>Freya</h3>
+                    <span>Mãe de Baldur</span>
+                  </div>
+                </div>
+              </div>
+
+              <!--Thor-->
+              <div class="swiper-slide">
+                <div class="card-character">
+                  <div class="image">
+                    <img src="img/assets/thor.jpg" alt>
+                    <button>Saiba mais</button>
+                  </div>
+                  <div class="info">
+                    <h3>Thor</h3>
+                    <span>Deus do Trovão</span>
+                  </div>
+                </div>
+              </div>
+
+            </div>
+            <div class="swiper-pagination"></div>
+          </div>
+
+        </div>
+      </section>
+
+      <!--Rodapé-->
+      <footer class="footer">
+        <div class="container">
+          <p>&copy; 2025 - Projeto God of War Ragnarok</p>
+
+          <div class="social-links">
+            <a class="github" href="https://github.com/seu-usuario" target="_blank">
+              <img
+                src="https://cdn.jsdelivr.net/npm/simple-icons@v10/icons/github.svg"
+                alt="GitHub">
+              GitHub
+            </a>
+
+            <a href="https://wa.me/55SEUNUMERO" target="_blank">
+              <img
+                src="https://cdn.jsdelivr.net/npm/simple-icons@v10/icons/whatsapp.svg"
+                alt="WhatsApp">
+              WhatsApp
+            </a>
+          </div>
+        </div>
+      </footer>
+
+      <!--Scripts-->
+      <script
+        src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+      <script src="js/main.js"></script>
+
+    </body>
+
+  </html>
