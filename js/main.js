@@ -25,3 +25,12 @@ var swiper = new Swiper(".slide-characters", {
     },
   },
 });
+
+AOS.init({
+  //duração
+  duration: 1000,
+  
+  //para evitar loop de animação
+  once: true,
+  
+});
